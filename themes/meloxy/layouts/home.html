@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ .Content }}
+<div class="list">
+  {{ range site.RegularPages }}
+  <div class="post">
+    <div class="metadata">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Content | strings.Truncate 200 }}
+    </div>
+    <div class="displayable">
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
