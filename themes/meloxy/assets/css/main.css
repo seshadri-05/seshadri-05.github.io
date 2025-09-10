@@ -8,6 +8,11 @@
   --gradient-secondary: color-mix(in oklch, oklch(from var(--source) l calc(c * 2.3) calc(h - 20)), transparent 40%);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   --band: 30%;
   /* background: linear-gradient(120deg, var(--accent), white var(--band), white calc(100% - var(--band)), var(--accent)); */
@@ -20,11 +25,23 @@ body {
 }
 
 header {
-  margin-bottom: 1rem;
+  .front-matter {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+
+    div {
+      text-align: right;
+      align-self: self-end;
+      color: #666;
+    }
+
+    margin: 1rem;
+  }
 
   h1 {
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
     width: 10rem;
     line-height: 1;
     color: var(--outline);
@@ -46,6 +63,7 @@ header {
       z-index: -2;
     }
   }
+
 }
 
 footer {
@@ -99,22 +117,17 @@ nav {
 }
 
 .post {
-  h2 {
-    margin: 0;
-    padding: 0;
-  }
-
   display: flex;
   height: 12rem;
   gap: 1rem;
   align-items: center;
 
-  .displayable {
-    height: 6.5rem;
-    aspect-ratio: 1;
-    padding: 1rem;
+  /* .displayable { */
+  /* height: 6.5rem; */
+  /* aspect-ratio: 1; */
+  /* padding: 1rem; */
 
-    background: var(--outline);
-    border-radius: .6rem;
-  }
+  /* background: var(--outline); */
+  /* border-radius: .6rem; */
+  /* } */
 }
