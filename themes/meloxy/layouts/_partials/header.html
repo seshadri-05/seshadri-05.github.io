@@ -1,5 +1,3 @@
-<div class="front-matter">
-  <h1>{{ site.Title }}</h1>
-  <div>{{ .Content }}</div>
-</div>
+<h1>{{ site.Title }}</h1>
+{{ .Summary | strings.Truncate 36 }}
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}

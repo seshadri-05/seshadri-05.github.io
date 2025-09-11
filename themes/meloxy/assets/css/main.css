@@ -8,36 +8,70 @@
   --gradient-secondary: color-mix(in oklch, oklch(from var(--source) l calc(c * 2.3) calc(h - 20)), transparent 40%);
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
   --band: 30%;
-  /* background: linear-gradient(120deg, var(--accent), white var(--band), white calc(100% - var(--band)), var(--accent)); */
-  background: var(--background);
+  --faint: oklch(from var(--source) calc(l * 3) calc(c * .3) calc(h + 10));
+  background: var(--faint);
   color: #444;
   font-family: sans-serif;
   line-height: 1.5;
   max-width: 768px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 header {
-  .front-matter {
-    display: flex;
-    justify-content: space-between;
-    gap: .5rem;
+  display: grid;
+  gap: .5rem;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 
-    div {
-      text-align: right;
-      align-self: self-end;
-      color: #666;
+  p {
+    align-self: self-end;
+    margin-left: 2.5rem;
+    color: #666;
+  }
+
+  nav {
+    height: fit-content;
+    grid-column: 1 / -1;
+    margin: 0 auto;
+    place-self: center;
+  }
+
+  @media (width >=24rem) {
+    p {
+      margin-left: 0.5rem;
+    }
+  }
+
+  @media (width >=48rem) {
+    max-width: 480px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    justify-items: center;
+
+    nav {
+      grid-row-start: 2;
+      grid-column-start: 1;
+      grid-column: span 1 / span 1;
+      align-self: self-start;
     }
 
-    margin: 1rem;
+    h1 {
+      grid-row: 1 / -1;
+      height: 10rem;
+    }
+
   }
+
+
 
   h1 {
     margin-left: 1rem;
@@ -63,12 +97,14 @@ header {
       z-index: -2;
     }
   }
-
 }
 
 footer {
-  border-top: 1px solid #222;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #666;
+  font-size: .8rem;
 }
 
 a {
@@ -80,7 +116,7 @@ nav {
   --gutter: .25rem;
   display: flex;
   width: fit-content;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   gap: var(--gutter);
   background: var(--accent);
   padding: var(--gutter);
@@ -108,11 +144,25 @@ nav {
   }
 }
 
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  list-style-position: inside;
+}
+
 .list {
   display: flex;
   flex-direction: column;
-  background: var(--background);
-  padding: 1rem;
   gap: 2rem;
 }
 
