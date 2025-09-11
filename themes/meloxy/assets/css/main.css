@@ -29,8 +29,9 @@ body {
 header {
   display: grid;
   gap: .5rem;
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr);
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 1rem;
 
   p {
     align-self: self-end;
@@ -42,7 +43,8 @@ header {
     height: fit-content;
     grid-column: 1 / -1;
     margin: 0 auto;
-    place-self: center;
+    /* place-self: center; */
+    align-self: self-start;
   }
 
   @media (width >=24rem) {
@@ -53,6 +55,7 @@ header {
 
   @media (width >=48rem) {
     max-width: 480px;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
     padding-top: 1rem;
     margin: 0 auto;
     justify-items: center;
@@ -75,7 +78,6 @@ header {
 
   h1 {
     margin-left: 1rem;
-    margin-top: 1rem;
     width: 10rem;
     line-height: 1;
     color: var(--outline);
