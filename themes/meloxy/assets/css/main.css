@@ -2,6 +2,7 @@
   --source: #4c9cc3;
   --background: oklch(from var(--source) calc(l * 2) calc(c * .5) calc(h + 10));
   --accent: oklch(from var(--source) l c h);
+  --faint: oklch(from var(--source) calc(l * 3) calc(c * .1) calc(h + 10));
   --outline: oklch(from var(--source) calc(l * .5) c h);
   --secondary: oklch(from var(--source) calc(l * .7) c calc(h + 80));
   --gradient-primary: color-mix(in oklch, oklch(from var(--source) l calc(c * 2.3) calc(h - 60)), transparent 60%);
@@ -9,8 +10,6 @@
 }
 
 body {
-  --band: 30%;
-  --faint: oklch(from var(--source) calc(l * 3) calc(c * .3) calc(h + 10));
   background: var(--faint);
   color: #444;
   font-family: sans-serif;
@@ -28,10 +27,11 @@ body {
 
 header {
   display: grid;
-  gap: .5rem;
+  row-gap: .5rem;
+  column-gap: 1rem;
   grid-template-rows: minmax(0, 1fr);
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 0 1rem;
+  margin: .5rem .5rem;
 
   p {
     align-self: self-end;
@@ -77,7 +77,7 @@ header {
 
 
   h1 {
-    margin-left: 1rem;
+    margin-left: 2rem;
     width: 10rem;
     line-height: 1;
     color: var(--outline);
@@ -118,7 +118,6 @@ nav {
   --gutter: .25rem;
   display: flex;
   width: fit-content;
-  /* margin: 0 auto; */
   gap: var(--gutter);
   background: var(--accent);
   padding: var(--gutter);
