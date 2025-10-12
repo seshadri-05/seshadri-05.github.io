@@ -1,7 +1,7 @@
 +++
 date = '2025-10-12T13:52:43+05:30'
 draft = true
-title = 'Random_Thoughts_Pt.1'
+title = 'Random Thoughts Pt.1'
 +++
 how do you know when you are in love?
 
