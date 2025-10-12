@@ -9,6 +9,10 @@
   --gradient-secondary: color-mix(in oklch, oklch(from var(--source) l calc(c * 2.3) calc(h - 20)), transparent 40%);
 }
 
+* {
+  transition: all ease-in 250ms;
+}
+
 body {
   background: var(--faint);
   color: #444;
