@@ -21,6 +21,6 @@ I stopped drawing when I grew up. I learnt about hobbies and hobbies, apparently
 
 Lives I want to live in maybe some other lives 
 
-There's the life where I'm a music teacher in a sleepy Midwest town, and I spend evenings tuning pianos and playing Chopin for the moonlight that spills in through my windows. The students come and go, but I remember their names. I know the ones who cry when their fingers can't find the notes. I remind them that's a part of learning that feeling. 
+There's a life where I'm a music teacher in a sleepy Midwest town, and I spend evenings tuning pianos and playing Chopin for the moonlight that spills in through my windows. The students come and go, but I remember their names. I know the ones who cry when their fingers can't find the notes. I remind them that's a part of learning that feeling. 
 
-Another life: I am in New York. A freelance writer living off late night Chinese takeout and unpaid invoices, but God, I write things that matter. I write about lonliness abd lust and the sound of trains at 2 a.m. I write about the way strangers meet eyes and how some silences hold more weight than full conversations. Maybe no one reads me. Maybe the right person does. 
+Another life: I am in New York. A freelance writer living off late night Chinese takeout and unpaid invoices, but God, I write things that matter. I write about lonliness and lust and the sound of trains at 2 a.m. I write about the way strangers meet eyes and how some silences hold more weight than full conversations. Maybe no one reads me. Maybe the right person does. 
