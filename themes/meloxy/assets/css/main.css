@@ -39,16 +39,23 @@ header {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  #search {
+    @media (width >=48rem) {
+      width: 15rem !important;
+    }
+
+    .pagefind-modular-input-clear {
+      background: transparent;
+    }
+  }
+
   input {
     outline: none;
-    border: solid .25rem var(--accent);
-    border-radius: 1.5rem;
+    border: solid .25rem var(--accent) !important;
+    border-radius: 1.5rem !important;
     height: 1rem;
     padding: 1rem;
 
-    @media (width >=48rem) {
-      width: 12.4rem;
-    }
 
     font-size: 1.2rem;
     align-self: self-start;
