@@ -1,7 +1,7 @@
 +++
 date = '2025-11-01T18:13:37+05:30'
 draft = true
-title = 'Things_I_think_of_while_doing_the_dishes'
+title = 'Things I think of while doing the dishes'
 +++
 Dreamed my house was on fire and the only thing I saved was a photograph of us together.
 
@@ -16,7 +16,7 @@ What if everything is intentional. What if dancing to music alone in your room m
 
 
 
-I think being an author for little kids would be so fun. yes i will write about bears sharing a home together and being friends with trees. Maqybe they make a delicious soup. There's an illustration of animals hugging while the sun sets and little kids read it and feel life is good. Love is good. 
+I think being an author for little kids would be so fun. yes i will write about bears sharing a home together and being friends with trees. Maybe they make a delicious soup. There's an illustration of animals hugging while the sun sets and little kids read it and feel life is good. Love is good. 
 
 
 idk i just wanna sit in a dark library in a oversized sweater and smile at my lover over the top of my book as a storm rages outside and a fire crackles at the fireplace and i feel warm and safe and loved is that too much to ask for 
