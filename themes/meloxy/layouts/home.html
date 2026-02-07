@@ -4,7 +4,7 @@
   <div class="post">
     <div class="metadata">
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Content | strings.Truncate 200 }}
+      {{ .Content | strings.Truncate 200 | replaceRE "<img[^>]*>" "" | safeHTML }}
     </div>
     <div class="displayable">
     </div>
