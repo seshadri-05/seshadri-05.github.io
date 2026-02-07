@@ -41,7 +41,7 @@ header {
 
   #search {
     @media (width >=48rem) {
-      width: 15rem !important;
+      width: 15.4rem !important;
     }
 
     .pagefind-modular-input-clear {

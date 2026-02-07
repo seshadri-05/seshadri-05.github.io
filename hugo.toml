@@ -10,8 +10,8 @@ theme = "meloxy"
     weight = 10
 
   [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
+    name = 'Photos'
+    pageRef = '/photos'
     weight = 20
 
   [[menus.main]]
