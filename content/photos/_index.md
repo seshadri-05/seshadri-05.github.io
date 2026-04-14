@@ -6,6 +6,24 @@ draft = false
 
 <!-- link your images here with the markdown ![image description](image path) syntax -->
 
+## Little blooms 
+
+![flower](./flower.jpeg)
+
+![garden](./garden.jpeg)
+
+![dahlia](./dahlia.jpeg)
+
+
+
+
+
+
+
+
+
+
+
 
 ![flowerkitty](./kitty.avif)
 **Flowerkitty**
